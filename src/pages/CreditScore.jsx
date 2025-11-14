@@ -31,8 +31,6 @@ export default function CreditScore() {
 
   const { data, isLoading } = useFetchCreditScoreQuery();
 
-  console.log(data);
-
   const scoreOver100 = (data?.data?.[0]?.creditScore / 850) * 100;
 
   const score = data?.data?.[0]?.creditScore;
