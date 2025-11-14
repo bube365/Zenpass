@@ -125,12 +125,6 @@ export default function ShareCreditData() {
     }
   };
 
-  // console.log(data?.data);
-
-  // console.log(
-  //   data?.data.find((d) => d.documentType === "SALES_RECORD")?.fileUrl
-  // );
-
   return (
     <div className="min-h-screen bg-white">
       <header className="p-6 flex items-center space-x-4 border-b border-gray-100">
