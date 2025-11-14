@@ -8,11 +8,11 @@ export default function Welcome() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 via-gray-50 to-white relative overflow-hidden">
-      <div className="w-[100vw] h-[100vh] absolute z-10 opacity-[0.55] bg-black " />
+      <div className="w-[100vw] h-[100vh] absolute z-10 opacity-[0.65] bg-black " />
       <img
         src={heroBg}
         alt=""
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
       <div className="relative z-10 min-h-screen flex flex-col">
@@ -32,7 +32,7 @@ export default function Welcome() {
 
         <div className="flex-1 flex items-center justify-center px-4">
           <div className="text-center max-w-[400px]">
-            <h1 className="text-2xl tracking-wide  lg:text-4xl font-medium text-white mb-6 leading-tight">
+            <h1 className="text-xl md:text-2xl tracking-wide  lg:text-4xl font-medium text-white mb-6 leading-tight">
               Access Affordable Credit Your Way
             </h1>
             <p className="text-xs md:text-sm font-normal  text-white/90 mb-8">
